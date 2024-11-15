@@ -1,0 +1,9 @@
+name: asset_manager
+version: 0.1.0
+
+authors:
+  - your-name-here <your-email-here>
+
+crystal: '>= 1.14.0'
+
+license: MIT
