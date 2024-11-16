@@ -45,7 +45,7 @@ Each of these will render a link to the hashed file, which will be created in th
 
 ## Rendering an import map
 
-An [Import Map](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/importmap) is a way of tersely specifying the dependencies in a javascript project without using URLs in the JS `import` statement. This technology is [widely available in modern browsers](https://caniuse.com/import-maps).
+An [Import Map](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/importmap) is a way of tersely specifying the dependencies in a javascript project without using URLs in the JS `import` statement. This technology is [widely available in modern browsers](https://caniuse.com/import-maps) and makes it substantially easier to manage a javascript-heavy web application.
 
 To build an import map, AssetManager provides an ImportMap class:
 
@@ -88,8 +88,6 @@ This will render:
 
 - `<script type="importmap">` tag with the import map JSON
 - a `<link rel="modulepreload" href="...">` tag for each mapped file with `preload: true`
-
-## Development
 
 ## Contributing
 
